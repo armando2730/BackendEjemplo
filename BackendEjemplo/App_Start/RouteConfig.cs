@@ -16,7 +16,7 @@ namespace BackendEjemplo
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "calculos", action = "Operacion", id = UrlParameter.Optional }
+                defaults: new { controller = "calculos", action = "MuestraPeliculas2", id = UrlParameter.Optional }
             );
         }
     }
